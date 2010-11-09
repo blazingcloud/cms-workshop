@@ -1,0 +1,276 @@
+body {
+	color:#999999;
+	margin:0;
+	padding:0;
+	font-family:arial, sans-serif;
+}
+a img{
+	border:none;
+}
+a {
+	color:#999999;
+}
+
+div#wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:1001px;
+}
+
+div#header {
+	width:1001px;
+}
+
+.logo {
+	margin-bottom: 25px;
+}
+ul#navigation {
+	padding:0;
+	margin:0;
+	width:1001px;
+	height:39px;
+	background:black;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+ul#navigation li {
+	height: inherit;
+	float:left;
+}
+
+ul#navigation li:hover {
+	background: url('/images/notch.png') no-repeat bottom center;
+}
+
+ul#navigation li a {
+	display:block;
+	text-decoration:none;
+	background-color:white;
+	height:29px;
+}
+
+ul#navigation li:last-child a {
+	border: none;
+}
+
+ul#navigation li.selected {
+	background: url('/images/notch.png') no-repeat bottom center;
+}
+
+div.top-nav-link {
+	float:left;
+	font-size:14px;
+	border-right:1px solid grey;
+	padding:5px 15px;
+	height:27px;
+}
+div.top-nav-link-last {
+	border:none;
+}
+div.nav-title {
+	width:100%;
+	text-align:center;
+}
+a div.nav-notch {
+	margin:12px auto auto;
+	width:30px;
+	visibility:hidden;
+}
+a:hover div.nav-notch {
+	visibility:visible;
+}
+.carousel-bg {
+border-bottom:12px solid black;
+border-top:24px solid black;
+margin:auto;
+width:1001px;
+}
+#infinite_carousel {
+	margin:auto;
+}
+.marketing {
+	width:1001px;	
+	height:260px;
+	margin:auto;
+	font-size:11px;
+}
+
+div.promo, div.video, div.newsletter {
+	float:left;
+	height:163px;
+	margin:10px;
+	width:312px;
+}
+div.promo {
+	background:url('/images/promo_bg.jpg') no-repeat;
+}
+div.promo p, div.promo h3 {
+	width:180px;
+	margin-left:20px;
+}
+div.video {
+	background:url('/images/video_bg.jpg') no-repeat;
+}
+div.video p, div.video h3 {
+	width:120px;
+	float:right;
+	margin-top:12px;
+}
+div.newsletter {
+	background:url('/images/newsletter_bg.jpg') no-repeat;
+}
+div.newsletter p, div.newsletter h3 {
+	margin-left:95px;
+	width:180px;
+}
+div.video a{
+	float:left;
+	margin:20px 10px 0 12px;
+}
+div.footer {
+	margin:auto;
+	text-transform: uppercase;
+	font-size:14px;
+	width:415px;
+}
+
+div.footer a, div.footer span {
+	padding:0 10px 0 10px;
+	text-decoration:none;
+}
+
+div#product_list, {
+	margin-left:80px;
+}
+
+div.product_page {
+    background-color:  black;
+    background-repeat: no-repeat;
+	height: 350px;
+    width: 1001px;
+}
+
+div.product_page > ul {
+	margin:0;
+	float: left;
+}
+
+div.product_page > img {
+	border: none;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#products: {
+	height:350px;
+	width: 1000px;
+	margin-left:70px;
+}
+
+.product_page ul {
+	list-style-type:none;
+	text-transform:uppercase;
+	word-spacing:0.1em;
+	letter-spacing:0.0em;
+	padding-top:20px;
+	padding-left: 40px;
+	width: 200px;
+}
+.product_page li {
+	font-size:15px;
+	margin-bottom:12px;
+}
+.product_page li a {
+	text-decoration:none;
+}
+
+.product_page p {
+	width:200px;
+	padding:20px 0 0 40px;
+	margin: 0;
+	float: left;
+}
+
+div.product_thumbnails{
+	margin-left:40px;
+	font-size: 13px;
+}
+
+div.product_thumbnails div.tuxedos_browse_switch {
+    color:#000000;
+    font-weight:bold;
+	margin-top: 25px;
+}
+
+h2.collection_header{
+	font-size: 13px;
+	color:maroon;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	padding-bottom: 5px;
+	margin-top: 25px;
+	border-bottom:1px solid maroon;	
+}
+
+div.product_thumbnails ul{
+	width:1001px;
+	margin:0;
+	padding:0;
+}
+
+div.product_thumbnails li {
+	list-style-type:none;
+	display:inline;
+	margin:0;
+}
+
+div.product_thumbnails img {
+	width:145px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	margin:5px 3px; 
+	padding:0;
+}
+
+/****** Product Details Page **********/
+
+div#product_info {
+	font-size:10pt;
+	color:black;
+	margin-left:40px;
+	padding:0;
+	overflow: hidden;
+	width: 961px;
+}
+div#product_info h2{
+	margin-bottom:13px;
+}
+
+div#product_info h3{
+	font-size:10pt;
+	text-transform:uppercase;
+	padding-top:30px;
+}
+
+div#product_info .catalog_number{
+	font-weight:bold;
+}
+
+div#product_info .item_price{
+	font-weight:bold;
+}
+
+div#product_info #product_details {
+	float:left;
+	padding-left:40px;
+	width:600px;
+}
+
+div#product_info img{
+	float:left;
+}
+

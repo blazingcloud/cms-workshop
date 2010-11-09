@@ -1,0 +1,23 @@
+
+.content_top {
+   overflow:hidden;
+} 
+
+#infinite_carousel {
+   visibility:hidden;
+} 
+
+#infinite_carousel > ul {
+   left: 200px;
+   list-style: none outside none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   width: 9999px;
+   height:325px;
+}
+
+#infinite_carousel ul li img {
+   width:467px;
+   height:325px;
+}
